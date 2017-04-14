@@ -60,6 +60,9 @@ public class FileSyncer {
             }catch (Exception ex){
                 System.out.println(ex);
             }
+            totalSize = 0;
+            total = 0;
+            copied = 0;
             Thread.sleep(DELAY);
         }
 
